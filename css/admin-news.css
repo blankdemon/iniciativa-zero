@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#admin-news {
+	margin:0;
+	padding:0;
+}
+
+#admin-news li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+	clear:both
+}
+
+#admin-news li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li#tadmin-news span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+}
+
+/* estilo de span de titulos */
+#admin-news li #num {
+	width:15px;
+	text-align:center;
+}
+
+#admin-news li #fecha {
+	width:75px;
+	text-align:center;
+}
+
+#admin-news li #tipo {
+	width:90px;
+	text-align:left;
+}
+
+#admin-news li #titulo {
+	width:550px;
+	text-align:left;
+}
+
+#admin-news li #accion {
+	width:70px;
+	text-align:center;
+	float:right;
+}
+
+#admin-news li #accion a.eliminar {
+	color:#009900;
+	background:url(../imagenes/cancelar.png) left no-repeat;
+	padding-left:20px;
+	float:left;
+}
+
+

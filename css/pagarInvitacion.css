@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font:18px Verdana;
+	font-weight:bold;
+}
+
+.listados {
+	border:1px solid #333;
+	border-collapse:collapse;
+}
+
+.listados td {
+	padding:5px;
+}
+
+.tlistados {
+	background:#333;
+	color:#fff;
+}

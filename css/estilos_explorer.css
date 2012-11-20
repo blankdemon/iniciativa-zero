@@ -1,0 +1,45 @@
+p.error {
+}
+
+p.aviso {
+}
+
+p.subtitulos {
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+table {
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+input {
+	border-style:none;
+}
+
+input.campo {
+	border-style:solid;
+}
+
+input.campo2 {
+	border-style:solid;
+}
+
+input.elegante {
+	border-color:#FFFFFF;
+	border-style:solid;
+}
+
+input.campo_listados {
+	border-style:inset;
+	border-width:1px;
+	border-color:#aeaeae;
+}
+
+input.campo_file {
+	border-style:inset;
+	border-width:1px;
+	border-color:#aeaeae;
+	font-size:10pt;
+}

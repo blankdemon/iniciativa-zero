@@ -1,0 +1,50 @@
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/pro-droplist.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+#dropList { 
+	height:33px;
+	width:auto;
+	background: #76B0FF;
+	position:relative;
+	font-family:arial, verdana, sans-serif;
+	z-index:500;
+	border:1px solid #76B0FF;
+	-moz-box-shadow: 0px 0px 10px #76B0FF;
+	-webkit-box-shadow: 0px 0px 10px #76B0FF;
+	border-width:1px 0px 1px 0px;
+} 
+#dropList ul#menu { margin:0; padding:0 0 0 0px; list-style:none; white-space:nowrap; } 
+#dropList ul#menu li.level1-li { float:left; height:33px; padding-top:1px; margin-right:1px; } 
+#dropList ul#menu li.level1-li a.level1-a { display:block; height:AUTO; float:left; padding:0 29px 0 29px; text-decoration:none; line-height:32px; white-space:nowrap; font-weight:bold; color:#213e9a; font-size:12px;} 
+#dropList ul#menu li.sub a.level1-a {color:#213e9a;} 
+#dropList ul#menu li.level1-li:hover, #dropList ul#menu li.level1-li a.level1-a:hover {position:relative;} 
+#dropList ul#menu li.level1-li a.level1-a:hover, #dropList ul#menu li.level1-li:hover a.level1-a { color:#fff; background:#fff; } 
+#dropList ul#menu li.sub a.level1-a:hover { height:32px; color:#000; background:#fff; }  
+#dropList ul#menu li.sub:hover > a.level1-a { height:32px; color:#000; background:#fff; } 
+#dropList ul#menu li div.listHolder { position:absolute; left:-9999px; top:33px; background:#fff; border:1px solid #76B0FF; border-width:0 1px 1px 1px; padding:0; font-size:11px;} 
+/* IE6 only */ 
+#dropList table { border-collapse:collapse; margin:-1px -10px; font-size:1em; width:0; height:0; } 
+#dropList ul#menu :hover div.listHolder {left:0;} 
+#dropList ul#menu a:hover div.listHolder {left:-1px;} 
+#dropList ul#menu div.col1 {width:143px;} 
+#dropList ul#menu div.col2 {width:280px;} 
+#dropList ul#menu div.col3 {width:420px;}
+#dropList ul#menu div.col4 {width:560px;}
+#dropList ul#menu div.col5 {width:700px;} 
+#dropList ul#menu a:hover div.left1, #dropList ul#menu :hover div.left1 {left:-141px;} 
+#dropList ul#menu a:hover div.left2, #dropList ul#menu :hover div.left2 {left:-210px;} 
+#dropList ul#menu a:hover div.left3, #dropList ul#menu :hover div.left3 {left:-311px;} 
+
+#dropList ul#menu div.listHolder div.listCol {display:block; float:left; padding:0px 0 10px 0; margin:0; width:140px;} 
+#dropList ul#menu div.listHolder div.listCol h5 {padding:5px 0 5px 10px; margin:0; font-size:11px; line-height:13px; background:#E6E6E6;} 
+#dropList ul#menu div.listHolder div.listCol ul {padding:0; margin:0; list-style:none;} 
+#dropList ul#menu div.listHolder div.listCol ul li {line-height:18px; padding:0 0 0 5px; margin:0;} 
+#dropList ul#menu div.listHolder div.listCol ul li a {color:#213e9a; text-decoration:none; padding-left:10px; font-weight:normal; } 
+#dropList ul#menu div.listHolder div.listCol ul li a:hover {text-decoration:underline;} 

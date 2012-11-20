@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* estilo para el formulario y las pestañas del buscador */
+#buscador-cartelera {margin:0;height:40px;clear:both;border-bottom: 1px solid #4388BD}
+#buscador-cartelera #words {width:860px;float:left}
+#buscador-cartelera #search {float:right}
+#buscador-cartelera div {float:left;display:block;}
+#buscador-cartelera div#sel_2 {margin-left:50px;width:265px;height:40px;background:#fff}
+#buscador-cartelera div#sel_2 a {float:left;display:block;padding:13px 10px 13px 10px;width:110px;background:#fff}
+#buscador-cartelera div#sel_2 a.sel, #buscador-cartelera div#sel_2 a.sel:hover{font-weight:bold;border-left: 1px solid #4388BD;border-top: 1px solid #4388BD;border-right: 1px solid #4388BD;background:#fff}
+#buscador-cartelera div#sel_2 a:hover {background: #D7E8FF;text-decoration: none}
+
+/* estilos para el menu del lado izquierdo de de la cartelera */
+#cartelera_container .menu, #cartelera_container .thumbs {float: left;margin-bottom: 20px;}
+#cartelera_container .menu {width:139px;}
+#cartelera_container .menu span {display: block;padding: 10px;color: #999999;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 18px;font-weight: bold;height: 25px;letter-spacing: -1px;line-height: 30px;text-decoration: none;}
+#cartelera_container .menu a {display: block;padding: 10px;}
+#cartelera_container .menu a.sel, #cartelera_container .menu a.sel:hover{background: #4388BD url(../imagenes/sel_arrow.png);background-color: #4388BD;background-position: 92% center;background-repeat: no-repeat;color: #FFFFFF;}
+#cartelera_container .menu a:hover {background: #D7E8FF;text-decoration: none}
+
+/* estilo para el listado de peliculas de la cartelera */
+#cartelera_container #searchResults, #cartelera_container #onlySearchResults { min-height:200px;}
+#cartelera_container .thumbs {width: 795px;padding-left: 14px;padding-top:20px;overflow: none;border-left: 1px solid #4388BD;}
+#peli_general {margin:0;padding:0;}
+#peli_general li {display:block;margin:0 0 10px 0;padding:0;min-height:180px;clear:both;}
+#peli_general li span {display:block;padding:5px;}
+#peli_general li span#pelicula {display:block;float:left;margin-right:10px;width:570px;text-align:justify;}
+#peli_general li span#detalles  {float:right;width:180px;line-height:26px;min-height:168px;border: 1px solid rgba(0, 0, 0, 0.15);}
+#peli_general li span#detalles b {width:80px;display: block;float: left;}
+
+/* contenedor de los resultados de busqueda de artistas */
+#cartelera_container #artistsSearchContainer div {float:left;width:140px;height:192px;margin-right:9px !important;padding:5px;}
+#cartelera_container #artistsSearchContainer div span {display:block;width:130px;padding:5px 0 5px 0;}
+
+/* estilo de numeros de paginado */
+.cartelera { float:right;clear:both;margin-top:20px; }
+.cartelera a, .cartelera b { float:left; display:block; padding:0px 5px 0px 5px; text-align:center; }
+.cartelera a:hover { background:#CEE7FF; }
+.cartelera a#primero { background:url(../imagenes/arrow-left.png) no-repeat left; width:16px; }
+.cartelera a#ultimo { background:url(../imagenes/arrow-right.png) no-repeat left; width:16px; }
+
+
+/**********************************************/
+/* estilo para la pagina de movies            */
+div#movie div#left {width:180px;float:left;}
+
+div#movie div#left div#clogout { background:#76B0FF; padding:10px; color:#555;margin: 20px 0 0 0;}
+div#movie div#left a { font-size: 16px;outline: 0;font-weight:bold;}
+
+div#movie div#right {width:760px;text-align:justify;float:right;}
+div#movie div#right div#detail_movie { margin-top:20px;clear:both;margin-bottom:20px;min-height:80px; }
+div#movie div#right div#detail_movie div#l { float:left;width:546px;min-height:80px; }
+div#movie div#right div#detail_movie div#r { float:left;width:210px;min-height:80px; }
+div#right div#detail_movie div#l { line-height:20px; }
+
+#audience-container {width:210px;;height:25px;margin-bottom:10px;}
+#audience-container #porcentaje {background:#000;height:25px;color:#ccc;text-align:right;padding:0;font-weight:bold;font-size:20px;}
+
+div#movie div#right div#actors { border-top:1px solid #e0e0e0;padding-top:10px; }
+div#movie div#right div#actors span { display:block;float:left;width:253px;height:50px; }
+div#movie div#right div#actors span a { display:block; }
+div#movie div#right div#actors span a:hover { background:#e0e0e0; text-decoration:none; }
+
+div#movie div#right div#critic { border-top:1px solid #e0e0e0;padding-top:10px;margin-bottom:30px; }
+div#movie div#right div#critic span { display:block;float:left;width:253px;height:50px; }
+
+
+/* ADMIN */
+/* estilo general para los listados */
+#peli_destacadas {margin:0;padding:0;}
+#peli_destacadas li {display:block;height:25px;margin:0;padding:0;clear:both}
+#peli_destacadas li span {display:block;padding:5px;float:left;margin-right:20px;}
+
+/* estilo de span de titulos */
+li#tpeli_destacadas span {font-weight:bold;border-bottom:1px dashed #000;}
+
+/* estilo de span de titulos y listado */
+#peli_destacadas li #num {width:15px;text-align:center;}
+#peli_destacadas li #nombre {width:280px;}
+#peli_destacadas li #director {width:270px;}
+#peli_destacadas li #genero {width:140px;}
+#peli_destacadas li #accion {width:80px;text-align:center;float:right;}
+#peli_destacadas li #accion a.destacar {background:url(../imagenes/bookmark_add.png) left no-repeat;padding-left:16px;float:left;}
+#peli_destacadas li #accion a.eliminar {background:url(../imagenes/bookmark_toolbar.png) left no-repeat;padding-left:16px;float:left;}
+#peli_destacadas li #accion a.actualizar {background:url(../imagenes/edit.png) left no-repeat;padding-left:16px;float:left;}
+#peli_destacadas li #accion a.elimpelicula {background:url(../imagenes/cancelar.png) left no-repeat;padding-left:16px;float:left;}
+#peli_destacadas li #accion input.upimg {float:right;}

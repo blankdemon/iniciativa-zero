@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+#referidos {
+	margin:0;
+	padding:0;
+}
+
+#referidos li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+	clear:both
+}
+
+#referidos li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li#treferidos {
+	display:block;
+	<!--[if IE]>
+		min-height:35px;
+	<![endif]-->
+	clear:both
+}
+
+li#treferidos span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+	min-height:25px;
+}
+
+/* estilo de span de titulos */
+#referidos li #num {
+	width:15px;
+	text-align:center;
+}
+
+#referidos li #compra {
+	width:75px;
+	text-align:center;
+}
+
+#referidos li #fcompra {
+	width:70px;
+	text-align:center;
+}
+
+#referidos li #fvcmto {
+	width:70px;
+	text-align:center;
+}
+
+#referidos li #srestantes {
+	width:85px;
+	text-align:left;
+}
+
+#referidos li #invitadopor {
+	width:160px;
+	text-align:left;
+}
+
+#referidos li #estado {
+	width:80px;
+	text-align:center;
+}
+
+#referidos li #accion {
+	width:120px;
+	text-align:center;
+	float:right;
+}
+
+#referidos li #accion a#invitar {
+	color:#009900;
+	background:url(../imagenes/usersadd.png) left no-repeat;
+	padding-left:20px;
+	float:left;
+}
+
+#referidos li #accion a#arbol {
+	color:#009900;
+	background:url(../imagenes/people.png) left no-repeat;
+	padding-left:20px;
+	float:right;
+}
+
+

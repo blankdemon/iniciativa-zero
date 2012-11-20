@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* imagenes que cambian en la pagina principal */
+#featured {
+	margin:0;
+	width:970px !important;
+	height:400px;
+	overflow:hidden;
+	box-shadow:0px 0px 5px #000;
+	-webkit-box-shadow:0px 0px 5px #000;
+	-moz-box-shadow:0px 0px 5px #000;
+}
+#featured li {
+	width:970px;
+	height:400px;
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+#featbanner {
+	float:right;
+	width:300px;
+	height:400px;
+	box-shadow:0px 0px 5px #000;
+	-webkit-box-shadow:0px 0px 5px #000;
+	-moz-box-shadow:0px 0px 5px #000;
+}
+.feattxt {
+	margin-left:20px;
+	padding:10px;
+	font-size: 12px;
+	line-height: 18px;
+	width:180px;
+	height:400px;
+	background: #000;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	color:#FFF;
+}
+.feattit {
+	color: #4fa4e5;
+	font-size: 18px;
+	font-weight:bold;
+	padding: 5px 0px;
+	font-family:Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+.featbut {
+	margin-top:10px;
+}
+#featbot {
+	padding:2px 0;
+}
+
+#prevBtn, #nextBtn {
+	float:left;
+	margin-top:10px;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	background-repeat:no-repeat;
+}
+#prevBtn {
+	background-image:url(../imagenes/but_prev.png);
+	margin-right:7px;
+}
+#nextBtn {
+	background-image:url(../imagenes/but_next.png);
+}
+
+
+
+
+/* estilo para peliculas, actores y noticias... */
+/* separador */
+.sep {
+	background-color: #eee;
+	background-color: rgba(0, 0, 0, 0.15);
+	height: 1px;
+	clear: both;
+	margin: 20px 0 20px 0;
+}
+
+/* estilos para el menu del lado izquierdo delas peliculas populares */
+#thumbs_main_page .menu, #thumbs_main_page .thumbs {
+	float: left;
+	min-height: 190px;
+	margin-bottom: 20px;
+}
+
+#thumbs_main_page .menu {
+	width: 139px;
+	border-right: 1px solid #76B0FF;
+	margin-right: 10px;
+}
+#thumbs_main_page .menu span {
+	display: block;
+	padding: 10px;
+	color: #999999;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 25px;
+	letter-spacing: -1px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#thumbs_main_page .menu a {
+	display: block;
+	padding: 10px;
+}
+#thumbs_main_page .menu a.sel,  #thumbs_main_page .menu a.sel:hover{
+	background: #76B0FF url(../imagenes/sel_arrow.png);
+	background-color: #4388BD;
+	background-position: 92% center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+#thumbs_main_page .menu a:hover {
+	background: #D7E8FF;
+	text-decoration: none;
+}
+
+/* estilo para las imagenes pequeñas de las peliculas */
+#thumbs_main_page .thumbs {
+	width: 816px;
+	padding-left: 4px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	border-color: rgba(0, 0, 0, 0.15)
+}
+
+#thumbs_main_page .thumbs div {
+	float: left;
+	width: 120px;
+	min-height: 182px;
+	margin-right: 15px;
+}
+
+#thumbs_main_page .thumbs div span {
+	display: block;
+	width: 110px;
+	padding: 5px;
+}
+
+#thumbs_main_page .thumbs div.new {
+	float: left;
+	width: 255px;
+	height: 172px;
+	margin-right: 15px;
+}
+
+#thumbs_main_page .thumbs div.new span {
+	float: right;
+	width: 120px;
+	height: 172px;
+}
+
+/* estilo para el contenedor de noticias */
+#newContent {
+	width: 700px;
+}
+
+#newContent img {
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+#wdescription h1 {
+	font-weight:bold;
+	font-size: 19px;
+	padding: 10px;
+	text-align:center;
+	color:#233d9a;
+}

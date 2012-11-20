@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#registro {
+	padding:160px 0 160px 0;
+	text-align:center;
+}
+
+#registro-form {
+	width: 600px;
+}
+
+#registro-form div#bottom {
+	clear:both;
+	padding-top: 20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#registro-form span {
+	float:left;
+	display:block;
+	width:300px;
+}

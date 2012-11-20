@@ -1,0 +1,215 @@
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(../imagenes/tree-view/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview span {
+	float:right;
+	display:block;
+	padding:2px;
+}
+
+.treeview li { margin-left:80px; background: url(../imagenes/tree-view/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li div span.vender {
+	border:none !important;
+	padding:5px !important;
+	width:50px;
+	text-align:center;
+	color:#fff;
+	background:url(../imagenes/botones/botones-interiores-02_of.jpg) 0 0 no-repeat !important;
+	cursor:pointer;
+	cursor:hand;
+}
+.treeview li div { padding:2px; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li#primer, .treeview li#segundo, .treeview li#tercer, .treeview li#cuarto{
+	padding: 10px 0 10px 20px;
+	color:#fff;
+	background: url(../imagenes/fondo_niveles.gif) no-repeat left ;
+}
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(../imagenes/tree-view/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.treeview-red li { background-image: url(../imagenes/tree-view/treeview-red-line.gif); }
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable { background-image: url(../imagenes/tree-view/treeview-red.gif); } 
+
+.treeview-black li { background-image: url(../imagenes/tree-view/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(../imagenes/tree-view/treeview-black.gif); }  
+
+.treeview-gray li { background-image: url(../imagenes/tree-view/treeview-gray-line.gif); }
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable { background-image: url(../imagenes/tree-view/treeview-gray.gif); } 
+
+.treeview-famfamfam li { background-image: url(../imagenes/tree-view/treeview-famfamfam-line.gif); }
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable { background-image: url(../imagenes/tree-view/treeview-famfamfam.gif); } 
+
+
+
+/* estilo para las columnas de invitaciones */
+.treeview #invitados li {
+	margin-left:30px;
+}
+
+.treeview #invitados li div {
+	height:23px;
+	display:block;
+}
+
+.treeview #invitados li div input {
+	margin:0 !important;
+	padding: 2px !important;
+}
+
+.treeview #invitados li div input[type="button"] {
+	padding:1px !important;
+	margin-top: -2px !important;
+}
+
+.treeview #invitados li div span {
+	height:16px;
+}
+
+.treeview #invitados li div span {
+	display:block;
+	margin-top:0;
+}
+
+.treeview #invitados li div span.numero {
+	float:left;
+	width:20px;
+	text-align:center;	
+	margin-right:8px;
+	border:0;
+}
+
+.treeview #invitados li div span.fecha {
+	float:left;
+	width:70px;
+	text-align:center;
+	margin-right:8px;
+}
+
+.treeview #invitados li div span.valor {
+	float:left;
+	width:70px;
+	text-align:center;
+	margin-right:8px;	
+}
+
+.treeview #invitados li div span.nombres {
+	float:left;
+	width:80px;
+	text-align:left;
+	margin-right:8px;
+}
+
+.treeview #invitados li div span.apellidos {
+	float:left;
+	width:80px;
+	text-align:left;
+	margin-right:8px;
+}
+
+.treeview #invitados li div span.correo {
+	float:left;
+	width:200px;
+	text-align:left;
+}
+
+
+
+.treeview #invitados li div span.nombres input {
+	width:76px;
+}
+
+.treeview #invitados li div span.apellidos input {
+	width:76px;
+}
+
+.treeview #invitados li div span.correo input {
+	width:200px;
+}
+
+
+/* alineacion a la derecha */
+.treeview #invitados li div span.estado {
+	float:right;
+	text-align:center !important;
+	margin-left:8px;
+	padding-top:5px;
+	text-align:right;
+	width:100px;
+}
+
+.treeview #invitados li div span.pagar_reenviar {
+	float:right;
+	text-align:left;
+	width:100px;
+	text-align:right
+}
+
+a#agregar {
+	float:left;
+	margin:2px 0 0 -13px;
+	background: url(../imagenes/tree-view/plus.gif) #fff center center no-repeat;
+	display:block;
+	width:9px;
+	height:9px;
+}
+
+a#eliminar {
+	float:left;
+	margin:2px 0 0 -13px;
+	background: url(../imagenes/tree-view/minus-red.gif) #fff center center no-repeat;
+	display:block;
+	width:9px;
+	height:9px;
+}
+
+li#titulos div span {
+
+	font-size:12px;
+	padding:0 2px 10px 2px;
+	font-weight:bold;
+	text-decoration:underline;
+}

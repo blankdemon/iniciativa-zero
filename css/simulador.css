@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* estilos del simulador */
+#enlaces { 
+	padding-left:10px;
+	margin-top: 10px;
+	width: 915px !important;
+	height: 42px;
+	float: left;
+	clear: both;
+	display:block;
+}
+#enlaces a { display:block; float:left !important; margin-bottom:10px; padding:10px; padding-left:35px; font-weight:bold; }
+#enlaces #simulador { background: url(../imagenes/simular.jpg) no-repeat left; }
+#enlaces #gom { background: url(../imagenes/gom-player.jpg) no-repeat left; }
+#enlaces #jdownloader { background: url(../imagenes/jdownloader.jpg) no-repeat left; }
+#enlaces #codecs { background: url(../imagenes/codecs.jpg) no-repeat left; }
+
+a.simenlace:hover { background:#fff; color:#000; text-decoration:none; }
+table#simulador { border:1px solid #3399FF; border-collapse:collapse; margin-bottom:20px; }
+table#simulador tr td { padding:10px; }
+table#rsimulador tr td { padding:3px; }
+table#rsimulador { border:1px solid #3399FF; border-collapse:collapse; margin-bottom:10px; }

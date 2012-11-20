@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#productos {
+	margin:0;
+	padding:0;
+}
+
+#productos li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+	clear:both
+}
+
+#productos li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li.lproductos {
+	height: 70px !important;
+}
+
+li#tproductos span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+}
+
+/* estilo de span de titulos */
+#productos li #numero {
+	width:15px;
+	text-align:center;
+}
+
+#productos li #nombre {
+	width:160px;
+	text-align:left;
+}
+
+#productos li #descripcion {
+	width:360px;
+	text-align:left;
+}
+
+#productos li #precio {
+	width:90px;
+	text-align:center;
+}
+
+#productos li #accion {
+	float:right;
+	width:152px;
+	margin-right:0;
+	text-align:center;
+}
+
+#accion a.cproducto, #accion a.ctproducto {
+	color:#009900;
+	background:url(../imagenes/aceptar.png) left no-repeat;
+	padding-left:20px;
+}
+
+#accion a.dproducto {
+	color:#009900;
+	background:url(../imagenes/info.png) left no-repeat;
+	padding-left:20px;
+}

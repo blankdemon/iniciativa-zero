@@ -1,0 +1,86 @@
+/* estilo para los listados de actores y peliculas */
+
+/**********************************************/
+/* estilo para la pagina                      */
+#artista div#left {
+	width:180px;
+	float: left;
+}
+
+#artista div#left span {
+	display:block;
+	padding: 10px;
+	font-weight:bold;
+	background:#76B0FF;
+	padding:10px;
+	color:#555;
+	margin: 20px 0 0 0;
+}
+
+#artista div#right {
+	width:750px;
+	float: right;
+}
+
+
+
+/**********************************************/
+/* estilo para la administracion de peliculas */
+#artistas {
+	margin:0;
+	padding:0;
+}
+
+#artistas li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+	clear:both
+}
+
+#artistas li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li#tartistas span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+}
+
+/* estilo de span de titulos */
+#artistas li #num {
+	width:15px;
+	text-align:center;
+}
+
+#artistas li #nombre {
+	width:280px;
+}
+
+#artistas li #tartista {
+	width:200px;
+}
+
+#artistas li #numimg {
+	width:100px;
+}
+
+#artistas li #accion {
+	width:80px;
+	text-align:center;
+	float:right;
+}
+
+#artistas li #accion a.actualizar {
+	background:url(../imagenes/edit.png) left no-repeat;
+	padding-left:16px;
+}
+
+#artistas li #accion a.elimpelicula {
+	background:url(../imagenes/cancelar.png) left no-repeat;
+	padding-left:16px;
+}

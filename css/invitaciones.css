@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#foot_invitaciones {
+	clear:both;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#fpagos h1 {
+	
+}
+
+#fpagos div {
+	float:left;
+	width:200px;
+	text-align:center;
+	margin-right:5px;
+}
+
+
+#invitaciones {
+	margin:0;
+	padding:0;
+}
+
+#invitaciones li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+}
+
+#invitaciones li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li#tinvitaciones span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+}
+
+/* estilo de span de titulos */
+#invitaciones li #numero {
+	width:15px;
+	text-align:center;
+}
+
+#invitaciones li #ninvitacion {
+	width:50px;
+	text-align:center;
+}
+
+#invitaciones li #fecha {
+	width:90px;
+	text-align:center;
+}
+
+#invitaciones li #hora {
+	width:90px;
+	text-align:center;
+}
+
+#invitaciones li #nombre {
+	width:370px;
+	text-align:left;
+}
+
+#invitaciones li #accion {
+	float:right;
+	width:152px;
+	margin-right:0;
+	text-align:center;
+}
+
+#accion a#aceptar {
+	color:#009900;
+	background:url(../imagenes/aceptar.png) left no-repeat;
+	padding-left:20px;
+}
+
+#accion a#rechazar {
+	color: #ff0000;
+	background:url(../imagenes/cancelar.png) left no-repeat;
+	padding-left:20px;
+}

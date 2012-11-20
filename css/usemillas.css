@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+#usemillas {
+	margin:0;
+	padding:0;
+}
+
+#usemillas li {
+	display:block;
+	height:25px;
+	margin:0;
+	padding:0;
+	clear:both
+}
+
+#usemillas li span {
+	display:block;
+	padding:5px;
+	float:left;
+	margin-right:20px;
+}
+
+li#tusemillas span {
+	font-weight:bold;
+	border-bottom:1px dashed #000;
+}
+
+/* estilo de span de titulos */
+#usemillas li #num {
+	width:15px;
+	text-align:center;
+}
+
+#usemillas li #usuario {
+	width:140px;
+}
+
+#usemillas li #nombre {
+	width:440px;
+}
+
+#usemillas li #nsemillas {
+	width:85px;
+	text-align:left;
+}
+
+#usemillas li #accion {
+	width:120px;
+	text-align:center;
+	float:right;
+}
+
+#usemillas li #accion a#invitar {
+	color:#009900;
+	background:url(../imagenes/usersadd.png) left no-repeat;
+	padding-left:20px;
+	float:left;
+}
+
+#usemillas li #accion a#arbol {
+	color:#009900;
+	background:url(../imagenes/people.png) left no-repeat;
+	padding-left:20px;
+	float:right;
+}
+
+

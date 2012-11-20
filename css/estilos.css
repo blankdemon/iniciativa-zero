@@ -1,0 +1,223 @@
+/* se requiere de los demas ficheros */
+@import url('home.css');
+@import url('droplist.css');
+@import url('jquery.treeview.css');
+@import url('invitaciones.css');
+@import url('comisiones.css');
+@import url('referidos.css');
+@import url('productos.css');
+@import url('cartelera.css');
+@import url('simulador.css');
+@import url('admin-news.css');
+@import url('artistas.css');
+@import url('registro.css');
+@import url('usemillas.css');
+@import url('jquery.rating.css');
+
+a { color:#213e9a; text-decoration:none; }
+a:hover { text-decoration:underline; }
+a:visited { color:#213e9a; }
+
+h1 {
+	font-size:18px;
+	font-weight:bold;
+	padding-top:0;
+	margin-top:0;
+}
+
+body {
+	font-family:arial, verdana, sans-serif;
+	background-color: #fff;
+	color:#666;
+}
+
+div, td { font: 12px arial, verdana, sans-serif; }
+div { align:justify; }
+form { margin:0px; }
+p { text-align:justify; }
+legend {font-weight:bold;}
+fieldset {border:1px solid #ccc;}
+img { border:0;}
+
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+select, input[type="text"], input[type="number"], input[type="email"], input[type="password"], input[type="submit"], input[type="button"] {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 5px;
+	font-size: 13px;
+	color: #555;
+	margin: 0 0 2px;
+	outline: 0
+}
+
+input[type="submit"], input[type="button"] {
+	padding: 4px !important;
+	background: #76B0FF;
+	border: 1px solid #76B0FF;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+	border-color: #599cd8;
+	outline: 0
+}
+
+table.bordes { border:1px solid #3399FF; border-collapse:collapse; margin-bottom:20px; }
+table.bordes tr td { padding:10px; }
+table.bordes tr td { padding:3px; }
+table.bordes { border:1px solid #3399FF; border-collapse:collapse; margin-bottom:10px; }
+
+
+/* estilo del encabezado */
+#header {
+	background: #fff;
+	height:100px;
+	display:block;
+}
+
+#header #left {
+	float:left;
+	padding-left:10px;
+	padding-top:10px;
+	line-height:15px;
+	display:block;
+	height:80px;
+	clear:both;
+	width:300px;
+}
+
+#header #right {
+	float:right;
+	display:block;
+	height:80px;
+	padding-top:10px;
+	margin-right:10px;
+}
+
+#header #right div {
+	float:left;
+	padding:10px;
+}
+#header #right #usuario {
+	width:146px;
+}
+#header #right #password {
+	width:146px;
+}
+#header #right #submit {
+	margin-top:14px;
+}
+
+/* estilo para sesion iniciada */
+#header #right ul li {
+	list-style:none;
+	line-height:16px;
+}
+#right ul li #ninvitaciones {
+	background:url(../imagenes/invitaciones.png) left no-repeat;
+	padding-left:20px;
+}
+#right ul li #csesion {
+	background:url(../imagenes/exit.png) left no-repeat;
+	padding-left:20px;
+	color:#ff0000;
+}
+
+div#password a {
+	font-size:10px;
+}
+
+
+
+/* estilos para mensajes generico de errores y aceptacion */
+div#aceptado {
+	color:green;
+	border-bottom:2px solid green;
+	border-left:1px solid green;
+	padding:10px;
+	margin-bottom:10px;
+}
+div#aceptado-nb {
+	color:green;
+	padding:10px;
+	margin-bottom:10px;
+}
+div#rechazado {
+	color:#ff0000;
+	font-size:12px;
+	padding:10px;
+	border-bottom:2px solid red;
+	border-left:1px solid red;
+	margin-bottom:10px;
+}
+div#rechazado-nb {
+	color:#ff0000;
+	font-size:12px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+#contenedor {
+	position:absolute;
+	width:970px;
+	left:50%;
+	margin: 15px 15px 15px -485px;
+	padding-bottom: 10px;
+	border: solid 1px #76B0FF;	
+	-moz-box-shadow: 0px 0px 10px #76B0FF;
+	-webkit-box-shadow: 0px 0px 10px #76B0FF;
+	display:block;
+	clear:both
+}
+
+div#cpaginas {
+	min-height:280px;
+	clear:both;
+}
+
+/* codigo para pagina de recuperacion de contraseña*/
+.rpassword input {
+	margin:10px !important;
+}
+
+/* estilo para el footer */
+#footer {
+	font-weight: normal;
+	clear:both;
+}
+#footer div {
+	padding:5px;
+}
+
+div#opciones {
+	text-align:right;
+}
+
+
+/* style for all pages */
+div.cita {
+	background: #e0e0e0;
+	padding: 5px;
+	margin-top:10px;
+	border:1px dashed #ccc;
+	font-size: 11px;
+}
+div.cita ul {
+	margin-left: 30px;
+	list-style-type:disc;
+}
+
+/* style for ajax loader */
+.loader {
+	padding:5px;
+	color:#fff;
+	background:#ff0000;
+	visibility: hidden;
+}
+#jquery-loader-background {
+	/*background: #000;*/
+}
