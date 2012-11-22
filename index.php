@@ -45,8 +45,6 @@
 	<link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox-1.3.4.css" media="screen" />	
 
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.loader.js"></script>
-	<script type="text/javascript" src="js/jquery.MetaData.js"></script>
 	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 	<script type="text/javascript" src="js/slider.js"></script>
@@ -91,8 +89,6 @@
 	
 	<script type="text/javascript">
 		$("#featured").easySlider();
-		
-		
 	</script>
     </div>
     </div>
